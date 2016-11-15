@@ -1,0 +1,24 @@
+# CUP: C++ Unified Project
+============================
+
+Overview
+--------------
+This quick start for writing C++ programming  on linux and Windows.
+It contains gtest framework. It also contains mockcpp framework on Linux.
+
+### Windows requirements ###
+There is only support gtest only, and requirement as followed:
+* cmake 12.8 or later
+*  VS2005 or VS2008 or VS2010
+
+### Linux requirements ###
+* cmake 12.8 or later
+* gcc 4.8 or later
+
+### Windows Quick start  ###
+build.bat YourProjectName
+
+### Linux Quick Start ###
+./build.sh  YourProjectName  YourProjectBitsSupported
+
+YourProjectBitsSupported: 32Bits  or 64Bits
